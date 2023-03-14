@@ -1,0 +1,47 @@
+--Encapsulation--
+
+
+Forskjell statiske felter lagres kun på klassen.
+Statiske metoder er tilgjenglige via klasssen og objeter opprettet.
+Statiske metoder kan ike skille mellom hvilket objekt som kaller på den statiske metoden
+dette vil si atr du ikke kan bruke this for å referere til objektet som kaller på metoden
+ikke statiske felter er kun tilgneglige på objektet som opprettes
+ikke statiske metoder kan bruke this for å referere til det faktiske objetet som kaller på metoden,
+slik at en kan prite ut data lagret i et felt f.eks. som tillhører opbjetet.
+
+INHERITANCE
+KEYWORD EXTENDS
+public class Cat extends Animal{] all funksjonaliteten som ligger i Animal kan også brukes av Cat.
+private felter og metoder arves ikke
+super er en metode vi kan kalle på i en konstruktør for å kalle på konstruktøren til en klasse vi arver fra.
+
+Is a relationship.
+
+forklare forhold mellom to typer klassen
+Circle is a Aigure
+Cat is an Animal
+Banana is a Fruit
+Arv skaper en sterk kobling mellom klassene!
+
+Use words to ask your self a question to structure code. (Cat is an animal, Cat makes a meow sound. cat walk with 4 legs.
+
+--Aggregation--
+
+Vi kan oppnå gjenbruk av kode ved å bruke aggregering
+sammenlignet med arv så har klassene her følgene forhold:
+has a relationship
+en flaske kan ha væske i seg.
+hva kan inneholde en veske.
+concept of the location of something, addresse (a field that has a common reference)
+høyresiden av forholdet, kan i det aller fleste tilfeller bli brukt flere steder i konden for å beskrive det samme konseptet på tvers av klasser.
+Beholder, addresse, beskriver ett "Has A relationship"  PLANLEGGE FØR MAN STARTER. ELLERS FUNKER DET IKKE. AGGREGERING er mini relational databases.
+
+--super key--
+constructor from the class we inherit.
+Let us call on the construtor if we are going to inherit from a class.
+
+final er kun lesbar.
+final kan ikke overskrives har med protected, private og public
+final hindrer arv.
+sett alt til private også tilpass etter hvert.
+

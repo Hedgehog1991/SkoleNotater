@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Fish
+comment1.params=type
+comment1.target=Fish(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getType()
+comment3.params=value
+comment3.target=void\ setType(java.lang.String)
+comment4.params=phrase
+comment4.target=void\ makeFishSay(java.lang.String)
+numComments=5

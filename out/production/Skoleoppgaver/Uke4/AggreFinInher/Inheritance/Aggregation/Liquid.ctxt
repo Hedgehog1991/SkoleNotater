@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Liquid
+comment1.params=name
+comment1.target=Liquid(java.lang.String)
+comment2.params=name\ volume
+comment2.target=Liquid(java.lang.String,\ double)
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=
+comment4.target=double\ getVolume()
+comment5.params=value
+comment5.target=void\ setVolume(double)
+comment6.params=liquid
+comment6.target=boolean\ merge(Liquid)
+numComments=7

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Aquarium
+comment1.params=volume
+comment1.target=Aquarium(double)
+comment2.params=
+comment2.target=java.util.ArrayList\ getAllFish()
+comment3.params=
+comment3.target=Liquid\ getLiquid()
+comment4.params=fish
+comment4.target=void\ addFish(Fish)
+comment5.params=
+comment5.target=void\ removeAllFish()
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7

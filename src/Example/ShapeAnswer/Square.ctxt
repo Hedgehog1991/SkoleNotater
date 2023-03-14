@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Square
+comment1.params=
+comment1.target=Square()
+comment2.params=side
+comment2.target=Square(double)
+comment3.params=side\ color\ filled
+comment3.target=Square(double,\ java.lang.String,\ boolean)
+comment4.params=
+comment4.target=double\ getSide()
+comment5.params=side
+comment5.target=void\ setSide(double)
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\r\n\ P\u00E5\ lik\ linje\ som\ vi\ gjorde\ i\ Circle\ og\ Rectangle,\r\n\ bruker\ vi\ her\ super\ for\ \u00E5\ hente\ Rectangle\ sin\ toString()\ metode.\r\n\ \r\n\ I\ og\ med\ at\ kvadrater\ kan\ teknisk\ sett\ sees\ p\u00E5\ som\ et\ rektangel\r\n\ hvor\ b\u00E5de\ bredde\ og\ h\u00F8yde\ er\ den\ samme,\ s\u00E5\ kan\ vi\ bruke\r\n\ tekstrepresentasjonen\ til\ Rectangle,\ hvor\ vi\ kan\ gj\u00F8re\ en\ liten\ endring\:\r\n\ \r\n\ .replaceWith(...)\ som\ du\ ser\ under\ bruker\ jeg\ her\r\n\ for\ \u00E5\ "pynte"\ p\u00E5\ outputten,\ slik\ at\ vi\ justerer\ Rectangle\ sin\ toString()\r\n\ til\ \u00E5\ vise\ til\ at\ Square\ arvet\ fra\ Rectangle.\r\n\ \r\n\ \r\n
+numComments=7

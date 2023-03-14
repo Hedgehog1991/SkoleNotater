@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Circle
+comment1.params=
+comment1.target=Circle()
+comment2.params=radius
+comment2.target=Circle(double)
+comment3.params=color\ filled\ radius
+comment3.target=Circle(java.lang.String,\ boolean,\ double)
+comment4.params=
+comment4.target=double\ getRadius()
+comment5.params=value
+comment5.target=void\ setRadius(double)
+comment6.params=
+comment6.target=double\ getArea()
+comment7.params=
+comment7.target=double\ getPerimeter()
+comment8.params=
+comment8.target=java.lang.String\ toString()
+comment8.text=\r\n\ Her\ brukes\ super.toString()\ for\ \u00E5\ hente\ ut\ tekst-representasjonen\r\n\ fra\ klassen\ som\ det\ arves\ fra,\ i\ dette\ tilfelle\:\ Shape\r\n\ \r\n\ Selv\ om\ vi\ overskriver\ toString()\ her,\ s\u00E5\ kan\ vi\ alltids\r\n\ referere\ til\ metoden\ vi\ originalt\ arvet\ fra\ ved\ \u00E5\ referere\r\n\ dirkete\ til\ denne\ hos\ klassen\ vi\ arvet\ fra\ via\ super\r\n
+numComments=9
