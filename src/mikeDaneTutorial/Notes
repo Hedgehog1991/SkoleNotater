@@ -1,0 +1,73 @@
+
+--String tips--
+
+class
+psvm
+String phrase = "Giraffe Academy";
+sout( phrase.toUpperCase() );
+sout( phrase.length() );            //extract information about the number of characters (space included) inside the string.
+sout( phrase.contains );            //Boolean to check if a string contains a word or letter.
+sout( phrase.charAt(number) );      // indexes a string to see what position a character is at.
+sout( phrase.indexOf("letter");     // opposite of charAt(). lastIndexOf() position of the last item of query.
+sout( phrase.substring(number, number) ); // grabs the letter at the indexed number and everything after. Set parameters to decide start and stop.
+sout( phrase.substring(0, phrase.indexOf(" "); //Method as a parameter to start at the first letter and stop at the space. (Will allways grab the first word)
+
+--Numbers--
+
+int myInt = 3;
+double myDouble = -5.5;
+sout( Math.abs(myDouble) );         //Absolute value is the distance from zero that a number is on the number line.
+sout( Math.pow(myInt, 3) );         //Is 3 3*3 = 9 9*3 = 27.0
+sout( Math.sqrt(36) );              // Square root of 36 = 6
+sout( Math.min(2, myInt);           // Returns the value of the smallest number .max largest
+
+--User input--
+
+import java.util.Scanner;
+class
+psvm
+
+Scanner KeyboardInput = new Scanner(System.in); //Getting user input
+Sout("Enter Your Name:");                       //Normal sout
+String name = keyboardInput.nextLine(); // Store what user writes with keyboard input method inside the variable name.
+sout ("Hey " + name + "!")              //print out the value stored in name to the sout.
+int age = keyboardInput.nextInt();      // input will expect a number.
+
+--Array--
+
+class
+psvm
+String [] friends = { "stuff", "Stuff", "Stuff"};       // Values in a string array
+sout (friends[number you want to print out] );
+friends[index] = "new value"; new sout                  // Change the value in an array.
+------------------------------------------
+String [] friends = new String[3];          //Create a new string with a specified number of elements
+friends[index position] = "name"            // add value to first position of a string.
+
+--Method--
+class
+psvm{
+sayHi("Kristian");              //Calling a method with a String parameter. (nb! datatype)
+}
+
+psv sayHi(String name){         //Method only runs if it can find a datatype string parameter of the calling. (kind of like a key ?)
+sout("hello " + name)           // Parameter name can be named whatever.
+}
+
+--Return Statements--
+class
+psvm                                        //public static void is not used in return statements
+int myNum = cube(4);                            //the method cube(4) store its return statement into the variable myNum.
+ !       System.out.println(myNum);         //parameter datatyple needs to be the same as the variable
+
+
+                        !
+public static int cube(int numberToCube){               //Add a parameter to the method that will look for a number in the calling-method
+    return numberToCube * numberToCube * numberToCube} // whatever datatype you want to return needs to be placed in front of the method name
+}                                                       //when using a return statement you exit the method so any code below is not executed.
+
+Litt vanskelig å forklare uten å se koden :neutral_face: kommer litt ann på hvor den er deklarert som Rune sier. :thumbsup:
+
+Ligger den i main metoden, må du sende den gjennom et parameter. callMethod(ArrayList<int> ArraylistFromMain);
+Er det en field (altså direkte i klassen) må du enten
+ passe på at listen er public, eller hvis den er private at du har en getter du kan bruke til å hente den

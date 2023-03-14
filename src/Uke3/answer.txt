@@ -1,0 +1,16 @@
+rewfwef
+What color is the ocean?
+Svar: q
+---
+rewfwef
+How many legs does a dog have?
+Svar: q
+---
+rewfwef
+What is 5 + 9 ?
+Svar: q
+---
+rewfwef
+Is java hard ?
+Svar: q
+---
