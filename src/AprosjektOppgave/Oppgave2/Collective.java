@@ -14,7 +14,6 @@ public abstract class Collective implements mainMenu{
 
 
 
-
     public static <Person, Room> Map<Room, Person>
     replaceNullValues(Map<Room,Person> inhabitantMap, Person defaultValue){
 
@@ -46,8 +45,9 @@ public abstract class Collective implements mainMenu{
         Person pr4 = new Person("Riza", 30, "rzaa@outlook.com");
         Person pr5 = new Person("Nils", 42, "Niiilsb@outlook.com");
 
-       // RentalAgreement ra1 = new RentalAgreement("kris",);
+       RentalAgreement ra1 = new RentalAgreement("kris", 4501020, 19/10/10);
 
+        System.out.println(ra1);
         HashMap<Room, Person> inhabitantMap = new HashMap<>();
         inhabitantMap.put(rm1, pr1);
         inhabitantMap.put(rm2, pr5);

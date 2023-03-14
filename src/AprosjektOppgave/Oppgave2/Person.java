@@ -1,6 +1,6 @@
 package AprosjektOppgave.Oppgave2;
 
-public class Person  {
+public class Person extends Collective {
 
 
 
