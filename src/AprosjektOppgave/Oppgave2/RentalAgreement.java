@@ -1,61 +1,26 @@
 package AprosjektOppgave.Oppgave2;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.util.Date;
-import java.util.Locale;
-import java.util.Calendar;
 
 
 
 public class RentalAgreement extends Person{
 
-    public String signature;
-    public int contractStart;
-    public int contractEnd;
-    public int day;
-    public int  month;
-    public int year;
+    public String contractStart = "ContractStart";
+    public String contractEnd = "ContractEnd";
 
 
-    public RentalAgreement(String signature, int contractStart,int contractEnd) {
-        super(signature);
-        this.signature = personName;
-        this.contractStart = getContractStart();
-        this.contractEnd = contractEnd;
-    }
+    public RentalAgreement(String signature, int day, int month, int year, int endDay, int endMonth, int endYear) {
+        super(signature, day, month, year, endDay, endMonth, endYear);
 
-
-    public int getContractStart() {
-        return contractStart;
-    }
-
-
-
-
-
-
-    public void setContractStart(int contractStart) {
-
-        this.contractStart = contractStart;
-
-    }
-
-    public int getContractEnd() {
-     return contractEnd;
-    }
-
-    public void setContractEnd(int contractEnd) {
-        this.contractEnd = contractEnd;
     }
 
     @Override
     public String toString() {
-        return "RentalAgreement{" +
-                ", signature='" + signature + '\'' +
-                ", contractStart=" + getContractStart() +
-                ", contractEnd=" + getContractEnd() +
-
-                '}';
+        return "\u001B[33mRENTAL AGREEMENT: \u001B[34m" + "\n" +
+                "   |- Signature: " + signature + " " +"\n"+
+                "   |- "+ contractStart + ": " + day +"/"+month+"/"+year +"\n" +
+                "   |- "+ contractEnd + ": " + endDay +"/"+endMonth+"/"+endYear +"\n" ;
     }
+
+
 }
+

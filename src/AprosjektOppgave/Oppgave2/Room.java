@@ -9,7 +9,7 @@ public final int roomNr;
 
 //static Room rms;
 public  Room(){
-    //super();
+    super();
     Room.rooms +=1;
      roomNr = Room.rooms;
 
@@ -22,7 +22,7 @@ public  Room(){
     @Override
     public String toString() {
         return "" +
-                "\u001B[33mRoom Number: " + roomNr +
+                "\u001B[33mROOM NUMBER: " + roomNr +
                 "\u001B[33m";
     }
 }
